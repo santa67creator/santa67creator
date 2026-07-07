@@ -1,157 +1,179 @@
+<div align="center">
 
-# Hi there 👋 I'm Sanzhar (Santa)
+```
+███████╗ █████╗ ███╗   ██╗████████╗ █████╗
+██╔════╝██╔══██╗████╗  ██║╚══██╔══╝██╔══██╗
+███████╗███████║██╔██╗ ██║   ██║   ███████║
+╚════██║██╔══██║██║╚██╗██║   ██║   ██╔══██║
+███████║██║  ██║██║ ╚████║   ██║   ██║  ██║
+╚══════╝╚═╝  ╚═╝╚═╝  ╚═══╝   ╚═╝   ╚═╝  ╚═╝
+```
 
-┌─────────────────────────────────────────────────────┐
-│                                                     │
-│            ███████╗ █████╗ ███╗   ██╗               │
-│            ██╔════╝██╔══██╗████╗  ██║               │
-│            ███████╗███████║██╔██╗ ██║               │
-│            ╚════██║██╔══██║██║╚██╗██║               │
-│            ███████║██║  ██║██║ ╚████║               │
-│            ╚══════╝╚═╝  ╚═╝╚═╝  ╚═══╝               │
-│                                                     │
-│            AI • Linux • Assembly • C++              │
-│                                                     │
-└─────────────────────────────────────────────────────┘
+### AI • Linux • Assembly • Computer Vision
 
+<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&pause=1000&color=A9FEF7&center=true&vCenter=true&width=600&lines=AI+Engineer;Local+LLM+Developer;Assembly+Enthusiast;Computer+Vision+Developer;Linux+Enthusiast;Building+things+that+matter..." alt="Typing SVG" />
 
----
+</div>
 
-> Initializing...
-
-Loading AI...
-Loading Linux...
-Loading Assembly...
-Loading Vision...
-Done.
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=c,cpp,python,bash,linux,docker,git,github,vscode,cmake,opencv,blender" />
+</p>
 
 ---
 
-<p align="center"> <img src="https://skillicons.dev/icons?i=cpp,c,python,bash,linux,docker,git,github,vscode,cmake"/> </p>
+## About Me
+
+```
+╭──────────────────────────────────────────────╮
+│                                                │
+│  Self-taught developer from Kazakhstan.       │
+│                                                │
+│  I enjoy building:                            │
+│                                                │
+│   • AI Assistants                             │
+│   • Computer Vision                           │
+│   • Local LLMs                                │
+│   • Assembly                                  │
+│   • Linux Applications                        │
+│   • Video AI                                  │
+│                                                │
+╰──────────────────────────────────────────────╯
+```
 
 ---
 
-# 🛠 Languages
+## Projects
 
-- C
-- C++
-- Python
-- Assembly (NASM)
-- Bash
+<table>
+<tr>
+<td width="50%">
 
----
+### 🤖 Saiko
 
-# 🖥 Technologies
+**Local Voice AI Assistant**
 
-### AI
+- ✔ Memory (ChromaDB vector store)
+- ✔ Vision (Moondream2)
+- ✔ Voice (faster-whisper + Silero)
+- ✔ Local Models (llama.cpp + Gemma)
+- ✔ Tool Calling & Avatar Control (VMC)
 
-- Ollama
-- llama.cpp
-- GGUF
-- OpenRouter
-- OpenAI API
-- Anthropic API
+</td>
+<td width="50%">
 
-### Development
+### 🎬 WatermarkKiller
 
-- Git
-- GitHub
-- Docker
-- WSL
-- Linux
+**AI-Powered Watermark Removal**
 
-### Interests
+- ✔ AI Restoration
+- ✔ Static & Animated Watermarks
+- ✔ Video Processing Pipeline
+- ✔ Batch Automation
 
-- Computer Vision
-- Automation
-- AI Agents
-- Voice Assistants
-- Vtubers
-- Local LLMs
+</td>
+</tr>
+</table>
 
 ---
 
-# 🔥 Current Projects
+## Currently Learning
 
-## 🤖 Saiko
+<p align="center">
 
-A local AI assistant inspired by modern AI companions.
+🧠 AI Agents &nbsp;&nbsp; ⚙️ Linux &nbsp;&nbsp; 🖥 Assembly &nbsp;&nbsp; 👁 Computer Vision &nbsp;&nbsp; 🤖 Local LLMs
 
-Features I'm working on:
+</p>
 
-- Voice conversations
-- Long-term memory
-- Computer control
-- Vision
-- Internet tools
-- Local models
-- Streaming support
-- Vtuber integration
+**Progress**
 
----
-
-## 🎬 WK (Watermark Killer)
-
-An AI-powered tool that removes watermarks from videos.
-
-Current direction:
-
-- Animated watermark removal
-- Better video restoration
-- Automation pipeline
+```
+Linux              ██████████████░░  90%
+AI                 ████████████░░░░  80%
+Assembly           ████████████░░░░  75%
+Computer Vision    ██████░░░░░░░░░░  40%
+```
 
 ---
 
-## 🖥 Assembly Projects
+## Terminal
 
-Learning Assembly by building real applications instead of tiny examples.
+```bash
+$ whoami
+Sanzhar
 
-Examples:
+$ interests
+AI
+Assembly
+Linux
+Computer Vision
+Automation
 
-- CLI utilities
-- Games
-- System tools
-- Terminal applications
+$ current_project
+Saiko
 
----
+$ currently_learning
+NASM
+Computer Vision
+CUDA
+LLMs
 
-# ❤️ Things I Like
-
-- Linux
-- AI
-- Anime
-- Rimuru Tempest
-- Low-level programming
-- Reverse engineering
-- Automation
-- Open Source
-- Learning difficult things
-
----
-
-# 📈 GitHub Stats
-
-<!-- Add GitHub Readme Stats here -->
+$ future
+Building things that matter...
+```
 
 ---
 
-# 📫 Contact
+## Tech Stack
 
-GitHub:
-https://github.com/santa67creator
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=c,cpp,python,cmake,docker,linux,bash,git,github,vscode,opencv" />
+</p>
 
----
-
-# 💭 Philosophy
-
-I believe that every difficult project teaches something valuable.
-
-Even if something doesn't work today, it becomes experience for tomorrow.
-
-I'm not trying to become just another programmer.
-
-I'm trying to become someone who builds tools that people remember.
+<p align="center">
+  <b>Also working with:</b> CUDA · Ollama · llama.cpp · OpenRouter · OpenAI API · Anthropic API
+</p>
 
 ---
 
-⭐ Thanks for visiting my profile!
+## GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=santa67creator&show_icons=true&theme=tokyonight&hide_border=true" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=santa67creator&layout=compact&theme=tokyonight&hide_border=true" width="38%" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=santa67creator&theme=tokyonight&hide_border=true" width="60%" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=santa67creator&theme=tokyo-night&hide_border=true" width="90%" />
+</p>
+
+---
+
+## Trophies
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=santa67creator&theme=tokyonight&row=1&column=6&margin-w=10" />
+</p>
+
+---
+
+## Contribution Snake
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/santa67creator/santa67creator/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/santa67creator/santa67creator/output/github-contribution-grid-snake.svg" />
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/santa67creator/santa67creator/output/github-contribution-grid-snake.svg" />
+  </picture>
+</p>
+
+---
+
+<div align="center">
+
+> *"The best way to predict the future is to build it."*
+
+</div>
