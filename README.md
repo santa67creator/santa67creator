@@ -1,39 +1,31 @@
-## Hi there 👋
 
 # Hi there 👋 I'm Sanzhar (Santa)
 
-> *"I don't just want to use AI. I want to build it."*
-
-I'm a self-taught developer from Kazakhstan who loves creating AI applications, automation tools, and low-level software.
-
-Most of my time is spent experimenting with local LLMs, AI agents, Assembly, Linux, and computer vision.
-
-I enjoy understanding **how things work under the hood**, not just using them.
-
----
-
-## 🚀 Current Goals
-
-- 🤖 Build advanced local AI assistants
-- 🧠 Learn AI engineering deeply
-- 💻 Master x86-64 Assembly (NASM/Linux)
-- 🐧 Become a better Linux developer
-- 🎥 Build AI tools for video processing
-- 🎨 Improve digital art skills
-- 📚 Learn something new every day
+┌─────────────────────────────────────────────────────┐
+│                                                     │
+│            ███████╗ █████╗ ███╗   ██╗               │
+│            ██╔════╝██╔══██╗████╗  ██║               │
+│            ███████╗███████║██╔██╗ ██║               │
+│            ╚════██║██╔══██║██║╚██╗██║               │
+│            ███████║██║  ██║██║ ╚████║               │
+│            ╚══════╝╚═╝  ╚═╝╚═╝  ╚═══╝               │
+│                                                     │
+│            AI • Linux • Assembly • C++             │
+│                                                     │
+└─────────────────────────────────────────────────────┘
 
 ---
 
-# 🧠 Currently Learning
+> Initializing...
 
-- Assembly (x86-64 NASM)
-- Linux Internals
-- Computer Vision
-- LLM Architecture
-- AI Agents
-- Prompt Engineering
-- C++
-- Python
+Loading AI...
+Loading Linux...
+Loading Assembly...
+Loading Vision...
+Done.
+---
+
+<p align="center"> <img src="https://skillicons.dev/icons?i=cpp,c,python,bash,linux,docker,git,github,vscode,cmake"/> </p>
 
 ---
 
