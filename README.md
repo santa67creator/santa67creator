@@ -100,32 +100,9 @@ Computer Vision    █████████████░░░  85%
 
 ## Terminal
 
-```bash
-$ whoami
-Sanzhar
-
-$ interests
-AI
-Assembly
-Linux
-Computer Vision
-Automation
-Network
-Microproccesor 
-
-$ current_project
-Saiko
-
-$ currently_learning
-NASM
-Computer Vision
-CUDA
-LLMs
-Cybersecurity
-
-$ future
-Building things that matter...
-```
+<p align="center">
+  <img src="https://raw.githubusercontent.com/santa67creator/santa67creator/main/terminal.svg" width="750" />
+</p>
 
 ---
 
