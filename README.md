@@ -25,18 +25,21 @@
 
 ```
 ╭──────────────────────────────────────────────╮
-│                                                │
-│  Self-taught developer from Kazakhstan.       │
-│                                                │
-│  I enjoy building:                            │
-│                                                │
-│   • AI Assistants                             │
-│   • Computer Vision                           │
-│   • Local LLMs                                │
-│   • Assembly                                  │
-│   • Linux Applications                        │
-│   • Video AI                                  │
-│                                                │
+│                                              │
+│  Self-taught developer from ...              │
+│                                              │
+│  I enjoy building:                           │
+│                                              │
+│   • AI Assistants                            │
+│   • Computer Vision                          │
+│   • Local LLMs                               │
+│   • Assembly                                 │
+│   • Linux Applications                       │
+│   • Video AI                                 │
+│   • C++, C, Python and etc                   |
+|   • ClaudeCode, Opencode, etc                |
+|   • network, bash, scripting etc             |
+|   • just tech love computers and internet    │
 ╰──────────────────────────────────────────────╯
 ```
 
@@ -90,7 +93,7 @@
 Linux              ██████████████░░  90%
 AI                 ████████████░░░░  80%
 Assembly           ████████████░░░░  75%
-Computer Vision    ██████░░░░░░░░░░  40%
+Computer Vision    █████████████░░░  85%
 ```
 
 ---
@@ -107,6 +110,8 @@ Assembly
 Linux
 Computer Vision
 Automation
+Network
+Microproccesor 
 
 $ current_project
 Saiko
@@ -116,6 +121,7 @@ NASM
 Computer Vision
 CUDA
 LLMs
+Cybersecurity
 
 $ future
 Building things that matter...
