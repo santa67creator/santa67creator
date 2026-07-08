@@ -138,8 +138,8 @@ Building things that matter...
 ## GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=santa67creator&show_icons=true&theme=tokyonight&hide_border=true" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=santa67creator&layout=compact&theme=tokyonight&hide_border=true" width="38%" />
+  <img src="https://github-readme-stats-santa67.vercel.app/api?username=santa67creator&show_icons=true&theme=tokyonight&hide_border=true" width="48%" />
+  <img src="https://github-readme-stats-santa67.vercel.app/api/top-langs/?username=santa67creator&layout=compact&theme=tokyonight&hide_border=true" width="38%" />
 </p>
 
 <p align="center">
