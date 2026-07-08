@@ -14,25 +14,25 @@
     <circle cx="22" cy="18" r="6" fill="#ff5f56"/>
     <circle cx="42" cy="18" r="6" fill="#ffbd2e"/>
     <circle cx="62" cy="18" r="6" fill="#27c93f"/>
-    <text x="380" y="23" fill="#8b949e" font-size="13" text-anchor="middle">sanzhar@github: ~</text>
+    <text x="380" y="23" fill="#8b949e" font-size="13" text-anchor="middle">san@github: ~</text>
 
     <!-- body -->
     <g font-size="15" fill="#c9d1d9">
-      <text x="24" y="68"><tspan fill="#7ee787">sanzhar@github</tspan><tspan fill="#8b949e">:~$ </tspan><tspan fill="#c9d1d9">whoami</tspan></text>
-      <text x="24" y="94" fill="#79c0ff">Sanzhar</text>
+      <text x="24" y="68"><tspan fill="#7ee787">san@github</tspan><tspan fill="#8b949e">:~$ </tspan><tspan fill="#c9d1d9">whoami</tspan></text>
+      <text x="24" y="94" fill="#79c0ff">San</text>
 
-      <text x="24" y="132"><tspan fill="#7ee787">sanzhar@github</tspan><tspan fill="#8b949e">:~$ </tspan><tspan fill="#c9d1d9">cat interests.txt</tspan></text>
+      <text x="24" y="132"><tspan fill="#7ee787">san@github</tspan><tspan fill="#8b949e">:~$ </tspan><tspan fill="#c9d1d9">cat interests.txt</tspan></text>
       <text x="24" y="158" fill="#e6edf3">AI · Assembly · Linux · Computer Vision</text>
       <text x="24" y="180" fill="#e6edf3">Automation · Network · Microprocessors</text>
 
-      <text x="24" y="218"><tspan fill="#7ee787">sanzhar@github</tspan><tspan fill="#8b949e">:~$ </tspan><tspan fill="#c9d1d9">echo $</tspan><tspan fill="#d2a8ff">CURRENT_PROJECT</tspan></text>
+      <text x="24" y="218"><tspan fill="#7ee787">san@github</tspan><tspan fill="#8b949e">:~$ </tspan><tspan fill="#c9d1d9">echo $</tspan><tspan fill="#d2a8ff">CURRENT_PROJECT</tspan></text>
       <text x="24" y="244" fill="#79c0ff">Saiko</text>
 
-      <text x="24" y="282"><tspan fill="#7ee787">sanzhar@github</tspan><tspan fill="#8b949e">:~$ </tspan><tspan fill="#c9d1d9">cat currently_learning.txt</tspan></text>
+      <text x="24" y="282"><tspan fill="#7ee787">san@github</tspan><tspan fill="#8b949e">:~$ </tspan><tspan fill="#c9d1d9">cat currently_learning.txt</tspan></text>
       <text x="24" y="308" fill="#e6edf3">NASM · Computer Vision · CUDA</text>
       <text x="24" y="330" fill="#e6edf3">LLMs · Cybersecurity</text>
 
-      <text x="24" y="368"><tspan fill="#7ee787">sanzhar@github</tspan><tspan fill="#8b949e">:~$ </tspan><tspan fill="#c9d1d9">./future.sh</tspan></text>
+      <text x="24" y="368"><tspan fill="#7ee787">san@github</tspan><tspan fill="#8b949e">:~$ </tspan><tspan fill="#c9d1d9">./future.sh</tspan></text>
       <text x="24" y="394" fill="#ffa657">Building things that matter...</text>
 
       <rect x="24" y="404" width="10" height="16" fill="#7ee787">
