@@ -1,0 +1,13 @@
+<svg viewBox="0 0 340 170" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif">
+  <rect x="1" y="1" width="338" height="168" rx="6" fill="#0d1117" stroke="#30363d"/>
+  <g transform="translate(24,32)">
+    <path fill="#8b949e" d="M0 2a2 2 0 012-2h9.5a.25.25 0 01.25.25V5H14V.25A.25.25 0 0114.25 0H16a2 2 0 012 2v12.5a.25.25 0 01-.25.25h-1.5a.25.25 0 01-.25-.25V13H2v1.5a.25.25 0 01-.25.25H.25A.25.25 0 010 14.5V2z" transform="scale(0.9)"/>
+  </g>
+  <text x="46" y="38" fill="#58a6ff" font-size="16" font-weight="600">Saiko</text>
+  <text x="24" y="78" fill="#8b949e" font-size="13">Local Ai assistant for computer she can very</text>
+<text x="24" y="98" fill="#8b949e" font-size="13">different things</text>
+
+  <circle cx="28" cy="132" r="6" fill="#3572A5"/>
+  <text x="40" y="137" fill="#8b949e" font-size="12">Python</text>
+  <text x="120" y="137" fill="#8b949e" font-size="12">&#9733; 3</text>
+</svg>
