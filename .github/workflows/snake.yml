@@ -34,8 +34,17 @@ jobs:
 
       - name: fetch stats svgs and commit to main
         run: |
-          curl -s "https://github-readme-stats-santa67.vercel.app/api?username=santa67creator&show_icons=true&theme=tokyonight&hide_border=true" -o stats.svg
-          curl -s "https://github-readme-stats-santa67.vercel.app/api/top-langs/?username=santa67creator&layout=compact&theme=tokyonight&hide_border=true" -o top-langs.svg
+          UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+          curl -sL -A "$UA" "https://github-readme-stats-santa67.vercel.app/api?username=santa67creator&show_icons=true&theme=tokyonight&hide_border=true" -o stats.svg
+          curl -sL -A "$UA" "https://github-readme-stats-santa67.vercel.app/api/top-langs/?username=santa67creator&layout=compact&theme=tokyonight&hide_border=true" -o top-langs.svg
+          echo "--- stats.svg starts with ---"
+          head -c 200 stats.svg
+          echo ""
+          echo "--- top-langs.svg starts with ---"
+          head -c 200 top-langs.svg
+          echo ""
+          head -c 1 stats.svg | grep -q '<' || (echo "::error::stats.svg fetch did not return SVG" && exit 1)
+          head -c 1 top-langs.svg | grep -q '<' || (echo "::error::top-langs.svg fetch did not return SVG" && exit 1)
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add stats.svg top-langs.svg
