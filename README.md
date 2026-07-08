@@ -51,15 +51,9 @@
 <tr>
 <td width="50%">
 
-### 🤖 Saiko
-
-**Local Voice AI Assistant**
-
-- ✔ Memory (ChromaDB vector store)
-- ✔ Vision (Moondream2)
-- ✔ Voice (faster-whisper + Silero)
-- ✔ Local Models (llama.cpp + Gemma)
-- ✔ Tool Calling & Avatar Control (VMC)
+<a href="https://github.com/santa67creator/Saiko">
+  <img src="https://raw.githubusercontent.com/santa67creator/santa67creator/main/saiko-card.svg" width="100%" />
+</a>
 
 </td>
 <td width="50%">
@@ -101,7 +95,7 @@ Computer Vision    █████████████░░░  85%
 ## Terminal
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/santa67creator/santa67creator/main/terminal.svg" width="750" />
+  <img src="https://raw.githubusercontent.com/santa67creator/santa67creator/main/terminal.svg" width="700" />
 </p>
 
 ---
