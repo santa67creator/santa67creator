@@ -45,31 +45,17 @@
 
 ---
 
-## Projects
+## Pinned Projects
 
-<table>
 <tr>
 <td width="50%">
 
 <a href="https://github.com/santa67creator/Saiko">
-  <img src="https://raw.githubusercontent.com/santa67creator/santa67creator/main/saiko-card.svg" width="100%" />
+  <img src="https://raw.githubusercontent.com/santa67creator/santa67creator/main/saiko-card.svg" width="50%" />
 </a>
 
 </td>
-<td width="50%">
-
-### 🎬 WatermarkKiller
-
-**AI-Powered Watermark Removal**
-
-- ✔ AI Restoration
-- ✔ Static & Animated Watermarks
-- ✔ Video Processing Pipeline
-- ✔ Batch Automation
-
-</td>
 </tr>
-</table>
 
 ---
 
