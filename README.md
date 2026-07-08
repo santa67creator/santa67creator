@@ -102,7 +102,7 @@ Computer Vision    █████████████░░░  85%
 
 ```bash
 $ whoami
-Sanzhar
+Just tech
 
 $ interests
 AI
@@ -144,8 +144,8 @@ Building things that matter...
 ## GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats-santa67.vercel.app/api?username=santa67creator&show_icons=true&theme=tokyonight&hide_border=true&cb=1" width="48%" />
-  <img src="https://github-readme-stats-santa67.vercel.app/api/top-langs/?username=santa67creator&layout=compact&theme=tokyonight&hide_border=true&cb=1" width="38%" />
+  <img src="https://raw.githubusercontent.com/santa67creator/santa67creator/main/stats.svg" width="48%" />
+  <img src="https://raw.githubusercontent.com/santa67creator/santa67creator/main/top-langs.svg" width="38%" />
 </p>
 
 <p align="center">
