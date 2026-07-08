@@ -19,6 +19,10 @@
   <img src="https://skillicons.dev/icons?i=c,cpp,python,bash,linux,docker,git,github,vscode,cmake,opencv,blender" />
 </p>
 
+<p align="center">
+  <b>Also working with:</b> CUDA · Ollama · llama.cpp · OpenRouter · OpenAI API · Anthropic API
+</p>
+
 ---
 
 ## About Me
@@ -45,56 +49,13 @@
 
 ---
 
-## Pinned Projects
-
-<tr>
-<td width="50%">
-
-<a href="https://github.com/santa67creator/Saiko">
-  <img src="https://raw.githubusercontent.com/santa67creator/santa67creator/main/saiko-card.svg" width="50%" />
-</a>
-
-</td>
-</tr>
-
----
-
-## Currently Learning
+## Projects
 
 <p align="center">
-
-🧠 AI Agents &nbsp;&nbsp; ⚙️ Linux &nbsp;&nbsp; 🖥 Assembly &nbsp;&nbsp; 👁 Computer Vision &nbsp;&nbsp; 🤖 Local LLMs
-
-</p>
-
-**Progress**
-
-```
-Linux              ██████████████░░  90%
-AI                 ████████████░░░░  80%
-Assembly           ████████████░░░░  75%
-Computer Vision    █████████████░░░  85%
-```
-
----
-
-## Terminal
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/santa67creator/santa67creator/main/terminal.svg" width="700" />
+  <img src="https://raw.githubusercontent.com/santa67creator/santa67creator/main/pinned-projects.svg" width="700" />
 </p>
 
 ---
-
-## Tech Stack
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=c,cpp,python,cmake,docker,linux,bash,git,github,vscode,opencv" />
-</p>
-
-<p align="center">
-  <b>Also working with:</b> CUDA · Ollama · llama.cpp · OpenRouter · OpenAI API · Anthropic API
-</p>
 
 ---
 
@@ -120,6 +81,35 @@ Computer Vision    █████████████░░░  85%
 <p align="center">
   <img src="https://raw.githubusercontent.com/santa67creator/santa67creator/main/trophy.svg" />
 </p>
+
+---
+
+## Terminal
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/santa67creator/santa67creator/main/terminal.svg" width="700" />
+</p>
+
+---
+
+---
+
+## Currently Learning
+
+<p align="center">
+
+🧠 AI Agents &nbsp;&nbsp; ⚙️ Linux &nbsp;&nbsp; 🖥 Assembly &nbsp;&nbsp; 👁 Computer Vision &nbsp;&nbsp; 🤖 Local LLMs
+
+</p>
+
+**Progress**
+
+```
+Linux              ██████████████░░  90%
+AI                 ████████████░░░░  80%
+Assembly           ████████████░░░░  75%
+Computer Vision    █████████████░░░  85%
+```
 
 ---
 
