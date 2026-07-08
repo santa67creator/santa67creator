@@ -45,3 +45,13 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add trophy.svg
           git diff --quiet && git diff --staged --quiet || (git commit -m "update trophy svg" && git push)
+
+      - name: generate saiko project card
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python3 generate_card.py "santa67creator/Saiko" "Saiko" > saiko-card.svg
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add saiko-card.svg
+          git diff --quiet && git diff --staged --quiet || (git commit -m "update saiko card" && git push)
