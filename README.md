@@ -53,7 +53,7 @@
 
 <!-- PINNED-PROJECTS:START -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/santa67creator/santa67creator/main/card-saiko.svg" width="340" />
+  <a href="https://github.com/santa67creator/Saiko"><img src="https://raw.githubusercontent.com/santa67creator/santa67creator/main/card-saiko.svg" width="340" /></a>
 </p>
 <!-- PINNED-PROJECTS:END -->
 
