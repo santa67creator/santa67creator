@@ -51,9 +51,11 @@
 
 ## Projects
 
+<!-- PINNED-PROJECTS:START -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/santa67creator/santa67creator/main/pinned-projects.svg" width="700" />
+  <img src="https://raw.githubusercontent.com/santa67creator/santa67creator/main/card-saiko.svg" width="340" />
 </p>
+<!-- PINNED-PROJECTS:END -->
 
 ---
 
