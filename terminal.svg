@@ -3,7 +3,16 @@
     <clipPath id="round">
       <rect x="0" y="0" width="760" height="430" rx="12" ry="12"/>
     </clipPath>
+    <clipPath id="clipCmd1"><rect x="172" y="52" width="0" height="20"><animate attributeName="width" from="0" to="54" begin="clockAnim.begin+0.3s" dur="0.4s" fill="freeze"/></rect></clipPath>
+    <clipPath id="clipCmd2"><rect x="172" y="116" width="0" height="20"><animate attributeName="width" from="0" to="162" begin="clockAnim.begin+1.9s" dur="0.9s" fill="freeze"/></rect></clipPath>
+    <clipPath id="clipCmd3"><rect x="172" y="202" width="0" height="20"><animate attributeName="width" from="0" to="189" begin="clockAnim.begin+3.9s" dur="1.0s" fill="freeze"/></rect></clipPath>
+    <clipPath id="clipCmd4"><rect x="172" y="266" width="0" height="20"><animate attributeName="width" from="0" to="243" begin="clockAnim.begin+6.0s" dur="1.2s" fill="freeze"/></rect></clipPath>
+    <clipPath id="clipCmd5"><rect x="172" y="352" width="0" height="20"><animate attributeName="width" from="0" to="99" begin="clockAnim.begin+8.3s" dur="0.6s" fill="freeze"/></rect></clipPath>
   </defs>
+
+  <rect width="0" height="0" opacity="0">
+    <animate id="clockAnim" attributeName="opacity" from="1" to="1" dur="13s" repeatCount="indefinite"/>
+  </rect>
 
   <g clip-path="url(#round)">
     <rect x="0" y="0" width="760" height="430" fill="#0d1117"/>
@@ -18,25 +27,63 @@
 
     <!-- body -->
     <g font-size="15" fill="#c9d1d9">
-      <text x="24" y="68"><tspan fill="#7ee787">san@github</tspan><tspan fill="#8b949e">:~$ </tspan><tspan fill="#c9d1d9">whoami</tspan></text>
-      <text x="24" y="94" fill="#79c0ff">San</text>
 
-      <text x="24" y="132"><tspan fill="#7ee787">san@github</tspan><tspan fill="#8b949e">:~$ </tspan><tspan fill="#c9d1d9">cat interests.txt</tspan></text>
-      <text x="24" y="158" fill="#e6edf3">AI · Assembly · Linux · Computer Vision</text>
-      <text x="24" y="180" fill="#e6edf3">Automation · Network · Microprocessors</text>
+      <!-- line 1 -->
+      <text x="24" y="68"><tspan fill="#7ee787">san@github</tspan><tspan fill="#8b949e">:~$ </tspan></text>
+      <g clip-path="url(#clipCmd1)"><text x="172" y="68" fill="#c9d1d9">whoami</text></g>
+      <g opacity="0"><text x="24" y="94" fill="#79c0ff">san</text><animate attributeName="opacity" from="0" to="1" begin="clockAnim.begin+1.0s" dur="0.3s" fill="freeze"/></g>
 
-      <text x="24" y="218"><tspan fill="#7ee787">san@github</tspan><tspan fill="#8b949e">:~$ </tspan><tspan fill="#c9d1d9">echo $</tspan><tspan fill="#d2a8ff">CURRENT_PROJECT</tspan></text>
-      <text x="24" y="244" fill="#79c0ff">Saiko</text>
+      <!-- line 2 -->
+      <text x="24" y="132"><tspan fill="#7ee787">san@github</tspan><tspan fill="#8b949e">:~$ </tspan></text>
+      <g clip-path="url(#clipCmd2)"><text x="172" y="132" fill="#c9d1d9">cat interests.txt</text></g>
+      <g opacity="0">
+        <text x="24" y="158" fill="#e6edf3">AI · Assembly · Linux · Computer Vision</text>
+        <text x="24" y="180" fill="#e6edf3">Automation · Network · Microprocessors</text>
+        <animate attributeName="opacity" from="0" to="1" begin="clockAnim.begin+3.0s" dur="0.3s" fill="freeze"/>
+      </g>
 
-      <text x="24" y="282"><tspan fill="#7ee787">san@github</tspan><tspan fill="#8b949e">:~$ </tspan><tspan fill="#c9d1d9">cat currently_learning.txt</tspan></text>
-      <text x="24" y="308" fill="#e6edf3">NASM · Computer Vision · CUDA</text>
-      <text x="24" y="330" fill="#e6edf3">LLMs · Cybersecurity</text>
+      <!-- line 3 -->
+      <text x="24" y="218"><tspan fill="#7ee787">san@github</tspan><tspan fill="#8b949e">:~$ </tspan></text>
+      <g clip-path="url(#clipCmd3)"><text x="172" y="218"><tspan fill="#c9d1d9">echo $</tspan><tspan fill="#d2a8ff">CURRENT_PROJECT</tspan></text></g>
+      <g opacity="0"><text x="24" y="244" fill="#79c0ff">Saiko</text><animate attributeName="opacity" from="0" to="1" begin="clockAnim.begin+5.1s" dur="0.3s" fill="freeze"/></g>
 
-      <text x="24" y="368"><tspan fill="#7ee787">san@github</tspan><tspan fill="#8b949e">:~$ </tspan><tspan fill="#c9d1d9">./future.sh</tspan></text>
-      <text x="24" y="394" fill="#ffa657">Building things that matter...</text>
+      <!-- line 4 -->
+      <text x="24" y="282"><tspan fill="#7ee787">san@github</tspan><tspan fill="#8b949e">:~$ </tspan></text>
+      <g clip-path="url(#clipCmd4)"><text x="172" y="282" fill="#c9d1d9">cat currently_learning.txt</text></g>
+      <g opacity="0">
+        <text x="24" y="308" fill="#e6edf3">NASM · Computer Vision · CUDA</text>
+        <text x="24" y="330" fill="#e6edf3">LLMs · Cybersecurity</text>
+        <animate attributeName="opacity" from="0" to="1" begin="clockAnim.begin+7.4s" dur="0.3s" fill="freeze"/>
+      </g>
 
-      <rect x="24" y="404" width="10" height="16" fill="#7ee787">
-        <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.4;0.5;0.9;1" dur="1.2s" repeatCount="indefinite"/>
+      <!-- line 5 -->
+      <text x="24" y="368"><tspan fill="#7ee787">san@github</tspan><tspan fill="#8b949e">:~$ </tspan></text>
+      <g clip-path="url(#clipCmd5)"><text x="172" y="368" fill="#c9d1d9">./future.sh</text></g>
+      <g opacity="0"><text x="24" y="394" fill="#ffa657">Building things that matter...</text><animate attributeName="opacity" from="0" to="1" begin="clockAnim.begin+9.1s" dur="0.3s" fill="freeze"/></g>
+
+      <!-- moving blinking cursor -->
+      <rect x="24" y="395" width="10" height="16" fill="#7ee787" opacity="0">
+        <animate attributeName="opacity" calcMode="discrete" fill="freeze"
+          begin="clockAnim.begin"
+          dur="13s"
+          keyTimes="0;0.0538;0.1462;0.2154;0.3;0.3769;0.4615;0.5538;0.6385;0.6846;1"
+          values="0;1;0;1;0;1;0;1;0;1;1"/>
+        <animate attributeName="x" calcMode="discrete" fill="freeze"
+          begin="clockAnim.begin"
+          dur="13s"
+          keyTimes="0;0.0538;0.1462;0.2154;0.3;0.3769;0.4615;0.5538;0.6385;0.6846;1"
+          values="172;226;226;334;334;361;361;415;415;271;271"/>
+        <animate attributeName="y" calcMode="discrete" fill="freeze"
+          begin="clockAnim.begin"
+          dur="13s"
+          keyTimes="0;0.0538;0.1462;0.2154;0.3;0.3769;0.4615;0.5538;0.6385;0.6846;1"
+          values="55;55;55;119;119;205;205;269;269;355;355"/>
+        <animate attributeName="opacity" calcMode="discrete" fill="freeze"
+          begin="clockAnim.begin" 
+          values="1;1;0;0;1" 
+          keyTimes="0;0.4;0.5;0.9;1" 
+          dur="1.2s" 
+          repeatCount="indefinite"/>
       </rect>
     </g>
   </g>
