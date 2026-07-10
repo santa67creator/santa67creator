@@ -16,11 +16,11 @@
 </div>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=c,cpp,python,bash,linux,docker,git,github,vscode,cmake,opencv,blender" />
+  <img src="https://skillicons.dev/icons?i=c,cpp,python,bash,linux,docker,arduino,git,github,mysql,vscode,cmake,opencv,blender" />
 </p>
 
 <p align="center">
-  <b>Also working with:</b> CUDA · Ollama · llama.cpp · OpenRouter · OpenAI API · Anthropic API
+  <b>Also working with:</b> CUDA · Ollama · llama.cpp · OpenRouter · OpenAI API · Anthropic API · CPT · OpenClaw
 </p>
 
 ---
@@ -44,6 +44,7 @@
 |   • ClaudeCode, Opencode, etc                |
 |   • network, bash, scripting etc             |
 |   • just tech love computers and internet    │
+│   • also love Soldering                      │
 ╰──────────────────────────────────────────────╯
 ```
 
