@@ -23,7 +23,7 @@ def graphql(query, token):
             "Content-Type": "application/json",
         },
     )
-    with urllib.request.urlopen(req) as resp:
+    with urllib.request.urlopen(req, timeout=30) as resp:
         return json.loads(resp.read().decode())
 
 def fetch_pinned(username, token):
@@ -45,7 +45,11 @@ def fetch_pinned(username, token):
     }}
     '''
     data = graphql(query, token)
+    if "errors" in data:
+        print(data["errors"])
+        sys.exit(1)
     return data["data"]["user"]["pinnedItems"]["nodes"]
+
 
 def safe_filename(name):
     return re.sub(r"[^a-zA-Z0-9_-]", "-", name).lower()
@@ -106,10 +110,16 @@ def update_readme(readme_path, cards_markdown):
         f.write(new_content)
 
 if __name__ == "__main__":
+    if len(sys.argv) < 3:
+        print("Usage: python generate_card.py <username> <owner/repo>")
+        sys.exit(1)
     username = sys.argv[1]
     repo_owner_repo = sys.argv[2]  # e.g. "santa67creator/santa67creator", where card svgs + README live
-    token = os.environ["GITHUB_TOKEN"]
-
+    token = os.getenv("GITHUB_TOKEN")
+    if not token:
+        print("::error::GITHUB_TOKEN is not set.")
+        sys.exit(1)
+    
     repos = fetch_pinned(username, token)
 
     # remove stale card files from previous runs
