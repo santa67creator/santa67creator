@@ -8,14 +8,18 @@ on:
     branches:
       - main
 
+permissions:
+  contents: write
+
 jobs:
   generate:
-    permissions:
-      contents: write
+    if: github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
+        with:
+          fetch-depth: 0
+          
       - name: generate snake animation
         uses: Platane/snk@v3
         with:
@@ -39,21 +43,21 @@ jobs:
           file: trophy.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: commit trophy svg
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add trophy.svg
-          git diff --staged --quiet || git commit -m "update trophy svg"
-          git pull --rebase origin main
-          git push
-
       - name: generate pinned project cards
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           python3 generate_card.py "santa67creator" "santa67creator/santa67creator" > pinned-projects.svg
+      - name: Commit generated files
+        run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A -- 'card-*.svg' README.md
-          git diff --quiet && git diff --staged --quiet || (git commit -m "update pinned project cards" && git push)
+
+          git add -A
+
+          if ! git diff --staged --quiet; then
+            git commit -m "Update generated profile assets"
+            git push
+          else
+            echo "No changes to commit."
+          fi
