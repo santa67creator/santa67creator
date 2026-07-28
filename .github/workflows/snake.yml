@@ -35,14 +35,7 @@ jobs:
           build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: generate trophy
-        uses: Erik-Donath/github-profile-trophy@feature/generate-svg
-        with:
-          username: santa67creator
-          file: trophy.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-
+          
       - name: generate pinned project cards
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
