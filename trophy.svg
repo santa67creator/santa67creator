@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="260">
+<rect width="100%" height="100%" fill="#0d1117"/>
+
+<text x="450" y="45"
+text-anchor="middle"
+font-size="28"
+fill="#58a6ff"
+font-family="Segoe UI">
+🏆 Trophy Cabinet
+</text>
+
+<text x="50" y="95" fill="white" font-size="20">💎 Commits: 424</text>
+<text x="50" y="135" fill="white" font-size="20">🚀 Pull Requests: 1</text>
+<text x="50" y="175" fill="white" font-size="20">📦 Repositories: 12</text>
+<text x="50" y="215" fill="white" font-size="20">👥 Followers: 4</text>
+
+</svg>
