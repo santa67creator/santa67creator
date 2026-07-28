@@ -81,10 +81,8 @@
 
 ---
 
-## Trophies
-
 <p align="center">
-  <img src="https://raw.githubusercontent.com/santa67creator/santa67creator/main/trophy.svg" />
+<img src="https://github-profile-trophy.vercel.app/?username=santa67creator&theme=tokyonight&no-frame=true&row=2&column=4&margin-w=15"/>
 </p>
 
 ---
