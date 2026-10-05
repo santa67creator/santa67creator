@@ -76,9 +76,6 @@
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=santa67creator&theme=tokyonight&hide_border=true&cb=1" width="60%" />
 </p>
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=santa67creator&theme=tokyo-night&hide_border=true&cb=1" width="90%" />
-</p>
 
 ---
 
