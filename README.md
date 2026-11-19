@@ -56,6 +56,7 @@
 <p align="center">
   <a href="https://github.com/santa67creator/Saiko"><img src="https://raw.githubusercontent.com/santa67creator/santa67creator/main/card-saiko.svg" width="340" /></a>
   <a href="https://github.com/santa67creator/my_rice_hyprland"><img src="https://raw.githubusercontent.com/santa67creator/santa67creator/main/card-my_rice_hyprland.svg" width="340" /></a>
+  <a href="https://github.com/santa67creator/my_learn_database"><img src="https://raw.githubusercontent.com/santa67creator/santa67creator/main/card-my_learn_database.svg" width="340" /></a>
 </p>
 <!-- PINNED-PROJECTS:END -->
 
